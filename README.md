@@ -1,5 +1,6 @@
 # Teensy-Bat-Detector
-by Frank, DD4WH
+(c) by Frank, DD4WH
+
 Semiprofessional bat detector with the Teensy 3.6 microcontroller &amp; Teensy audio board
 
 See the WIKI for details:
