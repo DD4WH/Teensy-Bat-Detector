@@ -5,6 +5,8 @@ Semiprofessional bat detector with the Teensy 3.6 microcontroller &amp; Teensy a
 
 I developed this bat detector in the hope that it will promote the study of bat calls by everyone who is interested in the natural history and bioacoustic of bats AND/OR interested in the technical details of how the detection of ultrasound signals can be performed with high tech-low cost equipment.
 
+Hopefully, it will enable more people to be able to "hear" and investigate (ultra-)sound and better understand animals using sound for navigation and/or communication like bats, birds, grasshoppers, aquatic mammals and many more.
+
 See the WIKI for details:
 https://github.com/DD4WH/Teensy-Bat-Detector/wiki
 
