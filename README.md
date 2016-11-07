@@ -21,7 +21,7 @@ Features:
 -	Record ultrasound on microSD card for later analysis with computer software, eg. the brilliant (and free!) Bat Explorer (http://www.batlogger.com/en/support/download.html)
 -	Spectrum display of the ultrasound (frequency vs. Audio power level)
 -	Spectrogram display = waterfall display (frequency vs. Time vs. Audio Power level)
--	0 to 48kHz frequency span (96kHz is possible, but experimental at the moment)
+-	0 to 96kHz frequency span (96kHz is possible only with a suitable MIC)
 - open source software (MIT licence) that can easily be extended for further functions
 
 Thanks to Frank B (https://github.com/FrankBoesing), who kindly provided the code to change the samplerate and for the waterfall display. Without that, this bat detector would not have been possible!
