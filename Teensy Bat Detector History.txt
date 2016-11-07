@@ -1,0 +1,51 @@
+Teensy Bat Detector
+(c) Frank DD4WH
+
+Development History
+
+
+07-11-2016		github
+- github site set up
+- newest software v1.2 on github
+- Wiki set up and filled with first information
+
+
+07-11-2016		Version v1.2
+- Recording of ultrasound on SD card (using uSDFS lib) (works up to 192ksps)
+- Time expansion playback of recordings with lower sample rates
+- sample rates 8k, 11k, 16k, 22k, 32k implemented
+
+
+03-11-2016		Version v1.1
+- Recording of ultrasound on SD card (using SD lib) (works up to 96ksps)
+
+
+02-11-2016		Version v1.0
+- added waterfall display showing spectrogram (by Frank B, thanks!)
+
+
+02-11-2016 		Version v0.3
+- added two separate detectors that scan the FFT results for ultrasound peaks in realtime
+  These peaks are indicated by a RED "BAT!" sign in the display AND the estimated frequency
+  of the peaks is being displayed for some time until it is deleted again, when no bat is present anymore.
+  The frequency of the peaks is very easy to determine, as the location of the peak bin of the FFT 
+  can easily be determined and indicates the frequency of the peak. It is more than adequately accurate
+  for bat detection (bin bandwidth is 375Hz at 196k sample rate), but could potentially made much more accurate by three-point-interpolation.
+
+01-11-2016		Version v0.2
+- x-axis indicators for the spectrum display (dynamically adjusted when changing sample rates)
+- logo (sorry, couldn´t resist ;-))
+- minor fixes
+- now local oscillator frequencies down to 0 Hz are allowed (not useful for bat detection, just for the user
+ to be able to understand and interpret the different heterodyne tones that you hear: 
+ F_bat - F_LO and F_bat + F_LO can be heard, if you tune below 10kHz, try it)
+
+ 
+01-11-2016		Version v0.1
+- heterodyne detection
+- pushbuttons to adjust for MIC GAIN, SAMPLE RATE, OSCILLATOR FREQUENCY
+
+
+31-10-2016		first experimental version
+- sample rate code by Frank Boesing implemented
+- spectrum display of ultrasound (96ksps)
