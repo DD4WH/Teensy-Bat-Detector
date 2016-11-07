@@ -18,7 +18,7 @@ https://forum.pjrc.com/threads/38988-Bat-detector
 Features:
 -	Heterodyne frequency translation
 -	Time expansion by playback of ultrasonic recordings in slower speed
--	Record ultrasound on microSD card for later analysis with computer software
+-	Record ultrasound on microSD card for later analysis with computer software, eg. the brilliant (and free!) Bat Explorer (http://www.batlogger.com/en/support/download.html)
 -	Spectrum display of the ultrasound (frequency vs. Audio power level)
 -	Spectrogram display = waterfall display (frequency vs. Time vs. Audio Power level)
 -	0 to 48kHz frequency span (96kHz is possible, but experimental at the moment)
