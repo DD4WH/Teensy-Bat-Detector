@@ -14,3 +14,13 @@ https://github.com/DD4WH/Teensy-Bat-Detector/wiki
 
 Discussion on the Teensy forum (mainly on software issues of the bat detector):
 https://forum.pjrc.com/threads/38988-Bat-detector
+
+Features:
+-	Heterodyne frequency translation
+-	Time expansion by playback of ultrasonic recordings in slower speed
+-	Record ultrasound on microSD card for later analysis with computer software
+-	Spectrum display of the ultrasound (frequency vs. Audio power level)
+-	Spectrogram display = waterfall display (frequency vs. Time vs. Audio Power level)
+-	0 to 48kHz frequency span (96kHz is possible, but experimental at the moment)
+- open source software (MIT licence) that can easily be extended for further functions
+
