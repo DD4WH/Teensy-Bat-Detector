@@ -24,5 +24,5 @@ Features:
 -	0 to 48kHz frequency span (96kHz is possible, but experimental at the moment)
 - open source software (MIT licence) that can easily be extended for further functions
 
-Thanks to Frank B (https://github.com/FrankBoesing), who kindly provided the code to change the samplerate. Without that, this bat detector would not have been possible!
+Thanks to Frank B (https://github.com/FrankBoesing), who kindly provided the code to change the samplerate and for the waterfall display. Without that, this bat detector would not have been possible!
 
