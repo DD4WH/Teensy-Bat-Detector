@@ -9,6 +9,8 @@ I developed this bat detector in the hope that it will promote the study of bat 
 
 In the end, hopefully, it will enable more people to be able to "hear" and investigate (ultra-)sound and better understand animals using sound for navigation and/or communication like bats, birds, grasshoppers, aquatic mammals and many more.
 
+![](https://github.com/DD4WH/Teensy-Bat-Detector/blob/master/IMG_2172.JPG)
+
 See the WIKI for details:
 https://github.com/DD4WH/Teensy-Bat-Detector/wiki
 
